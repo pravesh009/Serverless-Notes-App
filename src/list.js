@@ -33,6 +33,6 @@ export const main = handler(async (event) => {
 // --identity-pool-id='us-east-1:86d6ffa9-d404-457e-904b-5061c627dd79' \
 // --invoke-url='https://61y2n2lf1f.execute-api.us-east-1.amazonaws.com' \
 // --api-gateway-region='us-east-1' \
-// --path-template='/notes' \
+// --path-template='/billing' \
 // --method='POST' \
-// --body='{"content":"hello world","attachment":"hello.jpg"}'
+// --body='{"source":"tok_visa","storage":21}'
